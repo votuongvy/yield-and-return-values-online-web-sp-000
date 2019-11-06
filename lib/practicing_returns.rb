@@ -1,5 +1,6 @@
 require 'pry'
 
+
 def hello(array)
   i = 0
   collection = []
@@ -11,4 +12,5 @@ def hello(array)
   collection
 end
 
+binding.pry
 hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
